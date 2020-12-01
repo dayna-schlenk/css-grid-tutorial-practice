@@ -23,22 +23,33 @@
         <link rel="stylesheet" href="/styles/styles6.css">
     </head>
     <body>
-
         <div class="grid-container">
-            <header>
-                <div class="site-title">
-                    <h1>CSS Grid Resource Site</h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Resources</a></li>
-                        <li><a href="#">Tutorial Projects</a></li>
-                    </ul>
-                </nav>
-            </header>
-            
+            <nav>
+                <ul class="menu">
+                    <li class="logo"><a href="index6.html">CSS Grid Resource Site</a></li>
+                    <li class="item has-submenu">
+                        <a tabindex="0">Resources</a>
+                        <ul class="submenu">
+                            <li class="subitem"><a href="#">Video 1</a></li>
+                            <li class="subitem"><a href="#">Video 2</a></li>
+                            <li class="subitem"><a href="#">Video 3</a></li>
+                            <li class="subitem"><a href="#">Video 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="item has-submenu">
+                        <a tabindex="0">Tutorial Projects</a>
+                        <ul class="submenu">
+                            <li class="subitem"><a href="#">Project 1</a></li>
+                            <li class="subitem"><a href="#">Project 2</a></li>
+                            <li class="subitem"><a href="#">Project 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+
             <section class="video">
-                <p>Video!</p>
+                <h2>Video Title</h2>
             </section>
             <section class="takeaways">
                 <h2>My Takeaways</h2>
@@ -50,6 +61,6 @@
             </footer>
         </div>
         
-        <script src="" async defer></script>
+        <script src="/app.js" async defer></script>
     </body>
 </html>
