@@ -1,0 +1,6 @@
+@import "utilities";
+
+footer {
+    background: $color3;
+    @include flexCenter(column);
+}

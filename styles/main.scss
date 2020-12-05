@@ -1,23 +1,4 @@
-@use './navbar';
-@use './variables';
-
-.grid-container {
-    nav {
-        ul {
-            li {
-                a {
-                    .submenu {
-                        .subitem {
-                            a {
-
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    footer {
-
-    }
-}
+@import "utilities";
+@import "base";
+@import "navbar";
+@import "footer";
