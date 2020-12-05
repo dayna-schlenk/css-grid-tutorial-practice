@@ -1,6 +1,7 @@
 @import "utilities";
 
 footer {
-    background: $color3;
+    background: $color4;
+    color: #fff;
     @include flexCenter(column);
 }
