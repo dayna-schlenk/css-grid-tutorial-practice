@@ -24,15 +24,19 @@ nav {
 }
 
 .video {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: video;
 }
 
 .takeaways {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   grid-area: takeaways;
 }
 
 footer {
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: footer;
 }
@@ -46,6 +50,17 @@ footer {
   -ms-grid-rows: auto 2fr 8%;
       grid-template-rows: auto 2fr 8%;
       grid-template-areas: "nav" "greeting" "footer";
+}
+
+.resource-grid-container {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: auto 1fr 1fr 8%;
+      grid-template-rows: auto 1fr 1fr 8%;
+      grid-template-areas: "nav" "video" "takeaways" "footer";
 }
 
 nav {
