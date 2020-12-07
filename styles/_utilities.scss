@@ -16,3 +16,9 @@ $mainFont: 'Work Sans', sans-serif;
     align-items: center;
     flex-direction: $direction;
 }
+
+@mixin partialFlexCenter ($direction) {
+    display: flex;
+    align-items: center;
+    flex-direction: $direction;    
+}

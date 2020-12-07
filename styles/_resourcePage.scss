@@ -1,1 +1,6 @@
 @import "utilities";
+
+.video, .takeaways {
+    @include partialFlexCenter(column);
+    @extend .greeting;
+}

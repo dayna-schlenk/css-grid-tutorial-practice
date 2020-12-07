@@ -17,7 +17,7 @@ nav {
   grid-area: nav;
 }
 
-.greeting {
+.greeting, .video, .takeaways {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: greeting;
@@ -301,46 +301,59 @@ footer {
           flex-direction: column;
 }
 
-.greeting {
+.greeting, .video, .takeaways {
   margin: 2em 0 2em 0;
   padding: 0 1em 0 1.5em;
 }
 
-.greeting .left-align {
+.greeting .left-align, .video .left-align, .takeaways .left-align {
   margin-bottom: 1em;
   border-left: 6px solid #84a9c0;
   padding-left: 0.75em;
 }
 
-.greeting .welcome-text-block {
+.greeting .welcome-text-block, .video .welcome-text-block, .takeaways .welcome-text-block {
   line-height: 1.75;
 }
 
-.greeting .welcome-text-block .benefit-list {
+.greeting .welcome-text-block .benefit-list, .video .welcome-text-block .benefit-list, .takeaways .welcome-text-block .benefit-list {
   margin: 1em 0 1em 0;
   padding-left: 1.25em;
 }
 
-.greeting .welcome-text-block .benefit-list li {
+.greeting .welcome-text-block .benefit-list li, .video .welcome-text-block .benefit-list li, .takeaways .welcome-text-block .benefit-list li {
   margin: 0.63em;
 }
 
-.greeting .welcome-text-block .benefit-list li .plus-icons {
+.greeting .welcome-text-block .benefit-list li .plus-icons, .video .welcome-text-block .benefit-list li .plus-icons, .takeaways .welcome-text-block .benefit-list li .plus-icons {
   color: #6b0504;
 }
 
-.greeting .welcome-text-block .contact-icons {
+.greeting .welcome-text-block .contact-icons, .video .welcome-text-block .contact-icons, .takeaways .welcome-text-block .contact-icons {
   color: #6e8fa3;
   font-size: 1.25em;
 }
 
-.greeting .right-align {
+.greeting .right-align, .video .right-align, .takeaways .right-align {
   text-align: right;
   border-right: 6px solid #84a9c0;
   padding-right: 1.5em;
 }
 
-.greeting .right-align h3 {
+.greeting .right-align h3, .video .right-align h3, .takeaways .right-align h3 {
   margin-top: 1em;
+}
+
+.video, .takeaways {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=main.css.map */
