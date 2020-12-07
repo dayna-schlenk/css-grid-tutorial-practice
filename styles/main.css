@@ -302,8 +302,8 @@ footer {
 }
 
 .greeting .welcome-text-block .benefit-list {
-  list-style: none;
   margin: 1em 0 1em 0;
+  padding-left: 1.25em;
 }
 
 .greeting .welcome-text-block .benefit-list li {
