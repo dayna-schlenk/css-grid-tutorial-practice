@@ -11,6 +11,8 @@
         "_footer.scss",
         "_utilities.scss",
         "_homePage.scss",
+        "_utilities.scss",
+        "_resourcePage.scss",
         "_utilities.scss"
     ],
     "names": [],
