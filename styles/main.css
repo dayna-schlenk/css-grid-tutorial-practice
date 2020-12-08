@@ -55,7 +55,6 @@ footer {
 .resource-grid-container {
   display: -ms-grid;
   display: grid;
-  height: 100vh;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
   -ms-grid-rows: auto 1fr 1fr 8%;
