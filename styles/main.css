@@ -615,5 +615,8 @@ footer {
     font-size: 1.75em;
     margin-top: 2em;
   }
+  .takeaways {
+    margin-top: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
