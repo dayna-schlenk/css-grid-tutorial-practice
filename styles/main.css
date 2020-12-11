@@ -590,4 +590,11 @@ footer {
 .takeaways ul li .code-icons {
   color: #6b0504;
 }
+
+@media screen and (min-width: 768px) {
+  .greeting, .video, .takeaways {
+    margin: 3em 0 2em 0;
+    padding: 0 5em 0 5em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
