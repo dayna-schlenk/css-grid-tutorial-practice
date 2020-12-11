@@ -619,4 +619,10 @@ footer {
     margin-top: 0;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .greeting, .video, .takeaways {
+    padding: 0 18em 0 19em;
+  }
+}
 /*# sourceMappingURL=main.css.map */

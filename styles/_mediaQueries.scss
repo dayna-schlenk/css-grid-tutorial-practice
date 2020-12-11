@@ -38,3 +38,10 @@
         margin-top: 0;
     }
 }
+
+// Desktop
+@media screen and (min-width: 1200px) {
+    .greeting {
+        padding: 0 18em 0 19em;
+    }
+}
