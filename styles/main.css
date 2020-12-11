@@ -602,6 +602,9 @@ footer {
   .greeting p, .video p, .takeaways p, .greeting li, .video li, .takeaways li {
     font-size: 1.25em;
   }
+  .greeting .welcome-text-block .contact-icons, .video .welcome-text-block .contact-icons, .takeaways .welcome-text-block .contact-icons {
+    font-size: 1.45em;
+  }
   .greeting .right-align h3, .video .right-align h3, .takeaways .right-align h3 {
     font-size: 1.75em;
     margin-top: 2em;
