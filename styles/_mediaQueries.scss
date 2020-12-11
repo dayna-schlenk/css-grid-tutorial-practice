@@ -1,7 +1,22 @@
 // Tablet
 @media screen and (min-width: 768px) {
     .greeting {
-        margin: 3em 0 2em 0;
+        margin: 3em 0 3em 0;
         padding: 0 5em 0 5em;
+
+        h1 {
+            font-size: 2.5em; 
+        }
+
+        p, li {
+            font-size: 1.25em;
+        }
+
+        .right-align {
+            h3 {
+                font-size: 1.75em;
+                margin-top: 2em;
+            }
+        }
     }
 }

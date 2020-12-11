@@ -593,8 +593,18 @@ footer {
 
 @media screen and (min-width: 768px) {
   .greeting, .video, .takeaways {
-    margin: 3em 0 2em 0;
+    margin: 3em 0 3em 0;
     padding: 0 5em 0 5em;
+  }
+  .greeting h1, .video h1, .takeaways h1 {
+    font-size: 2.5em;
+  }
+  .greeting p, .video p, .takeaways p, .greeting li, .video li, .takeaways li {
+    font-size: 1.25em;
+  }
+  .greeting .right-align h3, .video .right-align h3, .takeaways .right-align h3 {
+    font-size: 1.75em;
+    margin-top: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
