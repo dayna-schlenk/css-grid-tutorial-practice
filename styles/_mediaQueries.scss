@@ -41,7 +41,40 @@
 
 // Desktop
 @media screen and (min-width: 1200px) {
+    // Home page
     .greeting {
-        // padding: 0 20em 0 21em;
+        padding: 0 20em 0 21em;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+    
+    // Resource pages
+    .resource-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr 8%;
+        grid-template-areas:
+            "nav nav"
+            "video takeaways"
+            "footer footer";
+    }
+
+    .video {
+        grid-area: video;
+    }
+
+    .takeaways {
+        grid-area: takeaways;
+    }
+
+    .video, .takeaways {
+        margin: 2em 0 2em 0;
+        padding: 0 1em 0 1.5em;
     }
 }
