@@ -644,8 +644,8 @@ footer {
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: auto 1fr 8%;
-        grid-template-rows: auto 1fr 8%;
+    -ms-grid-rows: auto 1fr 1fr 5%;
+        grid-template-rows: auto 1fr 1fr 5%;
         grid-template-areas: "nav nav" "video video" "takeaways codeblocks" "footer footer";
   }
   .video {
