@@ -659,7 +659,7 @@ footer {
     -ms-grid-column: 1;
     grid-area: takeaways;
   }
-  .video, .takeaways {
+  .video, .takeaways, .codeblocks {
     margin: 2em 0 2em 0;
     padding: 0 1em 0 1.5em;
   }
