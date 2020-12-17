@@ -68,6 +68,10 @@
 
     .video {
         grid-area: video;
+        
+        .wrapper {
+            width: 50%;
+        }
     }
 
     .takeaways {
