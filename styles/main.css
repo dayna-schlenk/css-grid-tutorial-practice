@@ -649,7 +649,7 @@ footer {
     grid-area: nav;
   }
   footer {
-    -ms-grid-row: 4;
+    -ms-grid-row: 5;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: footer;
@@ -659,9 +659,9 @@ footer {
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: auto auto 1fr 5%;
-        grid-template-rows: auto auto 1fr 5%;
-        grid-template-areas: "nav nav" "video video" "takeaways codeblocks" "footer footer";
+    -ms-grid-rows: (auto)[3] 1fr 5%;
+        grid-template-rows: repeat(3, auto) 1fr 5%;
+        grid-template-areas: "nav nav" "video video" "takeaway-header takeaway-header" "takeaways codeblocks" "footer footer";
   }
   .video {
     -ms-grid-row: 2;
@@ -672,8 +672,16 @@ footer {
   .video .wrapper {
     width: 50%;
   }
-  .takeaways {
+  .takeaway-header {
     -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: takeaway-header;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .takeaways {
+    -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: takeaways;
   }
@@ -682,7 +690,7 @@ footer {
     padding: 0 1em 0 1.5em;
   }
   .codeblocks {
-    -ms-grid-row: 3;
+    -ms-grid-row: 4;
     -ms-grid-column: 2;
     grid-area: codeblocks;
   }

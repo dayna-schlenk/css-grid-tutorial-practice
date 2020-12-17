@@ -58,10 +58,11 @@
     .resource-grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto auto 1fr 5%;
+        grid-template-rows: repeat(3, auto) 1fr 5%;
         grid-template-areas:
             "nav nav"
             "video video"
+            "takeaway-header takeaway-header"
             "takeaways codeblocks"
             "footer footer";
     }
@@ -72,6 +73,11 @@
         .wrapper {
             width: 50%;
         }
+    }
+
+    .takeaway-header {
+        grid-area: takeaway-header;
+        justify-self: center;
     }
 
     .takeaways {
