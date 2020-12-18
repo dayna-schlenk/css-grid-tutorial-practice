@@ -649,7 +649,7 @@ footer {
 .codeblocks code {
   border: 7px solid #84a9c0;
   display: inline-block;
-  padding: 1em 14em 0.5em 0;
+  padding: 1em 0 0.5em 0;
   color: #fff;
   background-color: #464f51;
   white-space: pre-wrap;
