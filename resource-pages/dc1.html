@@ -84,12 +84,32 @@
         <section class="codeblocks">
             <pre>
             <code>
-            .flex-container {
-                height: 100vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            body {
+                display: grid;
+                grid-template-columns: 100%;
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-areas:
+                    "nav"
+                    "sect1"
+                    "sect2"
+                    "footer";
             }
+            </code>
+            </pre>
+
+            <pre>
+            <code>
+            @media only screen and (min-width: 768px) {
+                body {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: auto 2fr 10%;
+                    grid-template-areas:
+                        "sidebar nav nav"
+                        "sidebar sect1 sect2"
+                        "footer footer footer";
+                }
+            } 
             </code>
             </pre>
         </section>
