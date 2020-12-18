@@ -84,11 +84,10 @@
         <section class="codeblocks">
             <pre>
             <code>
-            .flex-container {
-                height: 100vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            main {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+                grid-gap: 1em; 
             }
             </code>
             </pre>
