@@ -86,10 +86,20 @@
             <pre>
             <code>
             .flex-container {
-                height: 100vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                flex-direction: column;
+            }
+            </code>
+            </pre>
+
+            <pre>
+            <code>
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr 2fr auto;
+                grid-template-rows: 100px auto;
             }
             </code>
             </pre>
