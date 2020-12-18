@@ -92,4 +92,8 @@
     .codeblocks {
         grid-area: codeblocks;
     }
+
+    .takeaways, .codeblocks {
+        align-self: center;
+    }
 }

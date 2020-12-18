@@ -746,5 +746,10 @@ footer {
     -ms-grid-column: 2;
     grid-area: codeblocks;
   }
+  .takeaways, .codeblocks {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
