@@ -35,6 +35,10 @@ nav {
     grid-area: takeaways;
 }
 
+.codeblocks {
+    grid-area: codeblocks;
+}
+
 footer {
     grid-area: footer;
 }
@@ -56,11 +60,12 @@ footer {
 .resource-grid-container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto) 1fr 8%;
+    grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
     grid-template-areas:
         "nav"
         "video"
         "takeaway-header"
         "takeaways"
+        "codeblocks"
         "footer";
 }

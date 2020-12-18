@@ -42,8 +42,14 @@ nav {
   grid-area: takeaways;
 }
 
-footer {
+.codeblocks {
   -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: codeblocks;
+}
+
+footer {
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: footer;
 }
@@ -64,9 +70,9 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 8%;
-      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "footer";
+  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
 * {
@@ -113,8 +119,14 @@ nav {
   grid-area: takeaways;
 }
 
-footer {
+.codeblocks {
   -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: codeblocks;
+}
+
+footer {
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: footer;
 }
@@ -135,9 +147,9 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 8%;
-      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "footer";
+  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
 nav {
@@ -425,8 +437,14 @@ nav {
   grid-area: takeaways;
 }
 
-footer {
+.codeblocks {
   -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: codeblocks;
+}
+
+footer {
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: footer;
 }
@@ -447,9 +465,9 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 8%;
-      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "footer";
+  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
 .greeting, .video, .takeaways {
@@ -539,8 +557,14 @@ nav {
   grid-area: takeaways;
 }
 
-footer {
+.codeblocks {
   -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: codeblocks;
+}
+
+footer {
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: footer;
 }
@@ -561,9 +585,9 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 8%;
-      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "footer";
+  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+      grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
 .video, .takeaways {
