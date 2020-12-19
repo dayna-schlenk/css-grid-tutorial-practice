@@ -705,6 +705,9 @@ footer {
   .takeaways {
     margin-top: 0;
   }
+  .codeblocks pre code {
+    font-size: 1em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
