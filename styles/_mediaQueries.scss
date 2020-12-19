@@ -89,6 +89,12 @@
 
     .takeaways {
         grid-area: takeaways;
+
+        ul {
+            li {
+                margin-bottom: 2em;
+            }
+        }
     }
 
     .codeblocks {
