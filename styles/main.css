@@ -649,18 +649,15 @@ footer {
 }
 
 .codeblocks code {
-  border: 7px solid #84a9c0;
+  border: 10px inset #d1d1d1;
   display: inline-block;
   padding: 1em 0 0.5em 0;
   color: #fff;
-  background-color: #464f51;
+  background-color: #181c1d;
   white-space: pre-wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
 }
 
 @media screen and (min-width: 768px) {
