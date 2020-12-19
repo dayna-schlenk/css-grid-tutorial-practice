@@ -708,6 +708,12 @@ footer {
   .codeblocks pre code {
     font-size: 1em;
   }
+  .codeblocks pre .xs-code {
+    font-size: 1em;
+  }
+  .codeblocks pre .xxs-code {
+    font-size: 0.75em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
