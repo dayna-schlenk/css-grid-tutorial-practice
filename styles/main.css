@@ -732,7 +732,7 @@ footer {
     grid-area: takeaway-header;
     -ms-grid-column-align: center;
         justify-self: center;
-    margin-top: 2em;
+    margin: 1em 0 1em 0;
   }
   .takeaways, .codeblocks {
     margin: 2em 2em;
@@ -742,6 +742,7 @@ footer {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: takeaways;
+    margin-left: 6em;
   }
   .takeaways ul li {
     margin-bottom: 2em;
@@ -750,6 +751,7 @@ footer {
     -ms-grid-row: 4;
     -ms-grid-column: 2;
     grid-area: codeblocks;
+    margin-right: 6em;
   }
   .takeaways, .codeblocks {
     -ms-flex-item-align: center;

@@ -80,7 +80,7 @@
     .takeaway-header {
         grid-area: takeaway-header;
         justify-self: center;
-        margin-top: 2em;
+        margin: 1em 0 1em 0;
     }
 
     .takeaways, .codeblocks {
@@ -90,6 +90,7 @@
 
     .takeaways {
         grid-area: takeaways;
+        margin-left: 6em;
 
         ul {
             li {
@@ -100,6 +101,7 @@
 
     .codeblocks {
         grid-area: codeblocks;
+        margin-right: 6em;
     }
 
     .takeaways, .codeblocks {
