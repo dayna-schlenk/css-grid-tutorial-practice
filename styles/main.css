@@ -649,7 +649,11 @@ footer {
   color: #6b0504;
 }
 
-.codeblocks code {
+.codeblocks {
+  margin: 0 1em;
+}
+
+.codeblocks pre code {
   border: 10px inset #d1d1d1;
   display: inline-block;
   padding: 1em 0 0.5em 0;
@@ -659,6 +663,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0.75em;
 }
 
 @media screen and (min-width: 768px) {
