@@ -70,8 +70,8 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+  -ms-grid-rows: (auto)[3] 1fr 1fr 4%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 4%;
       grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
@@ -147,8 +147,8 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+  -ms-grid-rows: (auto)[3] 1fr 1fr 4%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 4%;
       grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
@@ -465,8 +465,8 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+  -ms-grid-rows: (auto)[3] 1fr 1fr 4%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 4%;
       grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
@@ -585,8 +585,8 @@ footer {
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: (auto)[3] 1fr 1fr 8%;
-      grid-template-rows: repeat(3, auto) 1fr 1fr 8%;
+  -ms-grid-rows: (auto)[3] 1fr 1fr 4%;
+      grid-template-rows: repeat(3, auto) 1fr 1fr 4%;
       grid-template-areas: "nav" "video" "takeaway-header" "takeaways" "codeblocks" "footer";
 }
 
@@ -634,6 +634,7 @@ footer {
 .takeaways {
   line-height: 1.75;
   margin-top: 1em;
+  margin-bottom: 0;
 }
 
 .takeaways h2 {
