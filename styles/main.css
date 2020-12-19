@@ -732,6 +732,7 @@ footer {
     grid-area: takeaway-header;
     -ms-grid-column-align: center;
         justify-self: center;
+    margin-top: 2em;
   }
   .takeaways, .codeblocks {
     margin: 2em 2em;
